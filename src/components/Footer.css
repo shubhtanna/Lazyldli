@@ -1,0 +1,54 @@
+.auto-scrolling-footer {
+  width: 80%;
+  overflow-x: hidden;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-image-container {
+  display: flex;
+  width: 200%;
+  animation: scrollFooter 4s linear infinite;
+}
+
+.footer-image {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.last-line-container {
+  background-color: black;
+  color: white;
+  /* padding: 0 20px; */
+  text-align: center;
+  /* width: 100%; */
+  width: calc(100% + 40px); /* Full width + padding to ensure it spans fully */
+  margin-left: -20px; /* Adjust for padding */
+}
+
+@keyframes scrollFooter {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.last-line {
+  position: relative;
+  animation: moveText 9s linear infinite; 
+  transition: all 200s;
+}
+
+@keyframes moveText {
+  0% {
+    left: 100%; 
+  }
+  50% {
+    left: 0%; 
+  }
+  100% {
+    left: -100%; 
+  }
+}
