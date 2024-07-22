@@ -26,8 +26,8 @@
   /* padding: 0 20px; */
   text-align: center;
   /* width: 100%; */
-  width: calc(100% + 40px); /* Full width + padding to ensure it spans fully */
-  margin-left: -20px; /* Adjust for padding */
+  width: calc(100% + 40px); 
+  margin-left: -20px; 
 }
 
 @keyframes scrollFooter {

@@ -15,10 +15,6 @@ const Navbar: React.FC = () => {
 
         <img src={svg} alt="logo-svg" />
       </div>
-
-
-
-
     </div>
   )
 }

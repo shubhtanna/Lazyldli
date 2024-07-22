@@ -64,7 +64,7 @@
 
 @media (min-width: 768px) {
     .heading-div {
-      justify-content: space-between; /* Back to original for larger screens */
+      justify-content: space-between;
     }
 
     .yellow-line-1{
@@ -88,7 +88,7 @@
     }
 
     .top-heading {
-        font-size: 20px; /* Original size for larger screens */
+        font-size: 20px;
       }
   }
 

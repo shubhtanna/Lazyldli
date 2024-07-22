@@ -133,30 +133,3 @@ const Leaderboard: React.FC = () => {
 };
 
 export default Leaderboard;
-
-
-
-// import React from 'react';
-// import { useSelector } from 'react-redux';
-// import { RootState } from '../index';
-// import { FaCrown } from 'react-icons/fa';
-
-// const Leaderboard: React.FC = () => {
-//   const scores = useSelector((state: RootState) => state.scores.scores);
-
-//   return (
-//     <div className="leaderboard">
-//       <h1>Leaderboard</h1>
-//       <ul>
-//         {scores.slice(0, 10).map((score: { username: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; time: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; }, index: React.Key | null | undefined) => (
-//           <li key={index}>
-//             <FaCrown />
-//             {score.username}: {score.time}
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Leaderboard;
